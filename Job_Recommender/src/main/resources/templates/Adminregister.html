@@ -1,0 +1,22 @@
+<html xmlns th:"http//www.thymeleaf.org">	
+	<head>
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+<section id="showcase">
+		<div class="frame">
+			
+			<form id="border" th:action="@{/Adminprocessregister}" method="POST">
+				<p>Enter your details to register</p>
+				<input type="text" placeholder="Name" name="name"><br>
+				<input type ="email" placeholder="Email" name="email"><br>
+				<input type = "password" placeholder ="Password" name="password"><br>
+				<button type="submit" align="center" >Sign up</button>
+			</form>
+		</div>
+</section>
+
+</body>
+
+</html>

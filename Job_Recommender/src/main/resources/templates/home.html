@@ -1,0 +1,31 @@
+<html xmlns:th="http//www.thymeleaf.org">
+<head>
+	<title>HomePage</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+		<header id="main-header">
+			<div class="container"> 
+				<h1>JOB PORTAL</h1>
+			</div>
+		</header>
+		<nav id="navbar">
+			<div class="container"> 
+				<ul>
+					<li><a th:href="@{/}">Contact Us</a></li>
+					<li><a th:href="@{/Adminlogin}">Admin</a></li>
+					<li><a th:href="@{/login}">Login</a></li>
+					<li><a th:href="@{/register}">Sign up</a><li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<section id="showcase">
+				
+			</section>			
+	    </div>
+		<footer id="main-footer">
+			<p>Copyright &copy;2017 JobPortal</p>
+		</footer>
+</body>
+</html>

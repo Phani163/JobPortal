@@ -1,0 +1,26 @@
+<html xmlns:th="http//www.thymeleaf.org">
+<head>
+	<title>JOB RECOMMENDER</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<section id="showcase">
+		<div class="frame">
+			
+			<form id="border" th:action="@{/Adminloginsubmit}" method="POST">
+			<p>Login here</p>
+			<input type="email" name="email" placeholder="Email"><br>
+			<input type="password" name="password" placeholder="Password"><br>
+			<button type="submit" align="center" >Sign in</button>
+
+			<h5 >If not registered<a th:href="@{/Adminregister}">click here</a><br>
+			<a href="http://google.com">Forgot password?</a></h5>
+			</form>
+		</div>		
+	</section>
+
+	
+
+</body>
+</html>

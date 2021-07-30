@@ -1,0 +1,24 @@
+<html xmlns th:"http//www.thymeleaf.org">	
+<head>
+	<title>HomePage</title>
+	<link rel="stylesheet" type="text/css" href="adminpage1style.css">
+</head>
+<body>
+		<header id="main-header">
+			<div class="container"> 
+				<h1>JOB PORTAL</h1>
+			</div>
+		</header>
+		<figure>
+			<img src="image4.jpg" id="image">
+		</figure>
+		<form class="frame" >
+			<button>JOB REQUESTS</button>
+			<br>			
+		</form>
+		<form class="frame" th:action="@{/uploadjob}" >
+			<button type="submit">UPLOAD JOB</button>
+		</form>
+
+</body>
+</html>
